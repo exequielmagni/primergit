@@ -28,10 +28,14 @@ ul li{
     font-size: 20px;
     text-transform: uppercase;
 }
+
 h1 {
     font-family: 'Oswald', sans-serif;
     text-align: center;
     margin: 15px 5px 25px 5px;
+}
+h1:hover{
+    transform: scale(1,2);
 }
 
 h3 {
@@ -46,6 +50,15 @@ ol {
     line-height: 30px;
     letter-spacing: normal;
     word-spacing: normal;
+}
+.listmenu:hover{
+    transform: scale(1,2);
+
+}
+.foto:hover{
+    transform: scale(1,2);
+    transition-property: all;
+    transition-duration: 2s;
 }
 p {
     font-family: 'Work Sans', sans-serif;
@@ -108,6 +121,14 @@ footer {
         width: 80%;
         height: 80%;
         margin: 1%;
+}
+.grid:hover .imghome1{
+transform: translateX(-400px);
+transition-duration: 3s;
+}
+.grid:hover .imghome2{
+transform: translateX(-400px);
+transition-duration: 3s;
 }
 .gridnosotros{
     display: grid;
