@@ -7,7 +7,7 @@
 header nav ul{
     display: block;
     justify-content: end;
-    background-color: black;
+    background-color: beige;
     list-style-type: none;
     text-decoration: none;
     text-align: end;
@@ -88,6 +88,17 @@ footer {
     margin: 20px 10px 3px 10px;
     background-color: black;
 
+}
+.button{
+    margin-left: 50%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.navboostrap{
+background-color: beige;
 }
 .menu_bar{
     display: none;
