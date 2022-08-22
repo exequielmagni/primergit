@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto&family=Work+Sans&display=swap");
+h1 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  margin: 15px 5px 25px 5px;
+}
+
+h3 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  margin: 15px 5px 15px 5px;
+}
+
 * {
   padding: 0px;
   margin: 0px;
@@ -30,20 +42,8 @@ ul li {
   text-transform: uppercase;
 }
 
-h1 {
-  font-family: "Oswald", sans-serif;
-  text-align: center;
-  margin: 15px 5px 25px 5px;
-}
-
 h1:hover {
   transform: scale(1, 2);
-}
-
-h3 {
-  font-family: "Oswald", sans-serif;
-  text-align: center;
-  margin: 15px 5px 15px 5px;
 }
 
 ol {
@@ -307,4 +307,4 @@ footer {
   .container {
     display: block;
   }
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=estilos.css.map */
